@@ -16,7 +16,7 @@ h2{
     border: 1px solid #929CA4;
     border-radius: 7px;
     background-color: #DFE3E6 ;
-    padding: 8px;
+    padding-left: 8px;
 }
 
 a, h2{
@@ -32,17 +32,22 @@ img {
 	margin: 8px 15px 0 0;
 }
 
+p img{
+    width: 63px;
+    height: 36px;
+}
+
 section img{
     margin-right: 15px;
     border: 3px solid #CC1C0D;
     border-radius: 45px;
 }
 
-.pricing {
+/*.pricing {
 	width: 740px !important;	
-}
+}*/
 .pricing div {
-	width: 178px;
+	width: 229px;
 	float: left;
 	border: 1px solid #929CA4;
 	border-radius: 10px;
@@ -55,7 +60,6 @@ section img{
 	border: none;
 }
 .pricing div h3 {
-	font-size: 1.3em;
 	padding-top: 10px;
 }
 .pricing div:nth-child(1) h3 {
@@ -72,4 +76,14 @@ section img{
 }
 .pricing div:nth-child(4) h3 {
 	border-top: 10px solid #000;
+}
+
+#vprospect,
+#vconvert,
+#vretain {
+	font-weight: bold;	
+}
+
+ul li ul li {
+	margin-left: 35px;	
 }
