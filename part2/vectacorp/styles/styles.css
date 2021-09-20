@@ -87,3 +87,8 @@ section img{
 ul li ul li {
 	margin-left: 35px;	
 }
+
+h2 img{
+    width: 80px;
+    height: 100px;
+}
